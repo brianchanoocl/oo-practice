@@ -9,10 +9,14 @@ public class HelloWorld {
         Truck myTruck = new Truck("GoGoVan", 10);
         Driver carDriver = new Driver(myBMW);
         Driver truckDriver = new Driver(myTruck);
+        Car gasolineCar = new Car("Gasoline car", new GasolineEngine());
+        Car electricCar = new Car("Electric car", new ElectricEngine());
 
         myBMW.speedUp();
         myTruck.speedUp();
         carDriver.speedUp();
         truckDriver.speedUp();
+        gasolineCar.speedUp();
+        electricCar.speedUp();
     }
 }
