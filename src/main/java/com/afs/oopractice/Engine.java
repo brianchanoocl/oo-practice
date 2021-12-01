@@ -1,2 +1,5 @@
-package com.afs.oopractice;public interface Engine {
+package com.afs.oopractice;
+
+public interface Engine {
+    int getSpeed();
 }
